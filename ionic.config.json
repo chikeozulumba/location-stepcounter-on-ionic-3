@@ -1,0 +1,7 @@
+{
+  "name": "msaada",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
