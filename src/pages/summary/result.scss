@@ -1,0 +1,75 @@
+page-result {
+    h1 {
+        font-family: Futura;
+        text-align: center;
+        margin: 50px 0;
+        text-transform: uppercase;
+        color: #6e2912;
+        font-weight: 600;
+        z-index: 999999999999999;
+        position: relative;
+        top: 5%;
+    }
+    #results {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 25px 15px;
+        margin: 50px 0;
+        z-index: 9999999999999999999999;
+        position: relative;
+        width: 100%;
+        div {
+            background: whitesmoke;
+            margin: 15px;
+            text-align: center;
+            padding: 10px;
+            p {
+                font-family: Futura;
+                font-size: 2rem;
+            }
+            span {
+                font-family: Futura;
+            }
+        }
+    }
+    #top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        width: 100%;
+        img {
+            height: 70vh;
+            width: 100%
+        }
+    }
+    #bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 50vh;
+        img {
+            height: 50vh;
+        }
+    }
+    #actions {
+        background: #6e2912;
+        text-align: center;
+        padding: 5px 40px;
+        height: auto;
+        width: auto;
+        border-radius: 25px;
+        margin: 0 auto;
+        -webkit-box-shadow: -1px 2px 6px 0px #80808096;
+        box-shadow: -1px 2px 6px 0px #80808096;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        p {
+            font-family: Sailec;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<ion-content>
+    <img id="logo" src="../../assets/logo.png" alt="">
+    <div #map id="map"></div>
+    <button (tap)="nextResults()" class="bounceInRight animated" *ngIf="nextBtn" id="actions">
+      <p>Next</p>
+    </button>
+    <div class="text-testimony">
+        <h3>{{ statement }}</h3><br>
+        <span *ngIf="warning">No runs available</span>
+    </div>
+</ion-content>

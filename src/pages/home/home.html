@@ -1,18 +1,25 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
+<ion-content padding>
+    <img id="logo" src="../../assets/logo.png" alt="">
+    <button ion-button id="navButton" menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <div id="top">
+        <img src="../../assets/cuts/top-cover.png" alt="">
+    </div>
+    <div id="bottom">
+        <img src="../../assets/cuts/bridge-bottom.jpg" alt="">
+    </div>
+    <!-- <button (tap)="start()" id="startBtn">
+      <span>{{ begin }}</span>
+    </button> -->
+    <button (tap)="start()" id="remoteBtn">
+      {{ begin }}
+    </button>
+    <div id="counter" #timer> {{ counting }} <span>STEPS</span>
+    </div>
+    <div id="meta">
+        <div><img src="../../assets/icon/stopwatch.png" alt=""><br><span>0.0</span></div>
+        <div><img src="../../assets/icon/heartbeat.png" alt=""><br><span>0.0</span></div>
+        <div><img src="../../assets/icon/distance.png" alt=""><br><span>0.0</span></div>
+    </div>
 </ion-content>

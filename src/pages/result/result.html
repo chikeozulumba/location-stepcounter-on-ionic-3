@@ -1,0 +1,29 @@
+<ion-content padding>
+    <img id="logo" src="../../assets/logo.png" alt="">
+    <h1>MSAADA SUMMARY</h1>
+    <div>
+        <div id="top">
+            <img src="../../assets/cuts/top-cover.png" alt="">
+        </div>
+        <div id="bottom">
+            <img src="../../assets/Lagos-Streets-.jpg" alt="">
+        </div>
+        <div id="results">
+            <div id="timer">
+                <span>Time Spent:</span>
+                <p>{{ time }} in minutes</p>
+            </div>
+            <div id="distance">
+                <span>Steps Taken:</span>
+                <p>{{ steps }} Steps</p>
+            </div>
+            <div id="amount">
+                <span>Amount earned:</span>
+                <p>2000.00</p>
+            </div>
+        </div>
+        <button (tap)="nextPage()" class="bounceInRight animated" id="actions">
+            <p>Next</p>
+        </button>
+    </div>
+</ion-content>

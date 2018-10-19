@@ -1,16 +1,29 @@
-// http://ionicframework.com/docs/theming/
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
+@font-face {
+    font-family: 'Campton';
+    src: url(../assets/fonts/campton-bold.ttf);
+}
 
+@font-face {
+    font-family: 'Boing';
+    src: url(../assets/fonts/Boing-Bold.ttf);
+}
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+@font-face {
+    font-family: 'Sailec';
+    src: url(../assets/fonts/Sailec.ttf);
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(../assets/fonts/Futura.ttf);
+}
+
+#logo {
+    position: absolute;
+    z-index: 99999999;
+    height: 30px;
+    top: 1%;
+    left: 1%;
+}
